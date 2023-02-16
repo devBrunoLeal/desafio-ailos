@@ -1,27 +1,34 @@
-# DesafioAilos
+# Desadio Ailos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.16.
+Este projeto foi desenvolvido em Angular 12, utilizando o Angular Material e o ngx-mask.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Pré-requisitos
 
-## Code scaffolding
+- Node.js
+- Angular CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+1. Clone este repositório.
+2. Instale as dependências do projeto com `npm install`.
+3. Rode o servidor de desenvolvimento com `ng serve`.
+4. Acesse a aplicação em `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Dependências
 
-## Running unit tests
+- Angular 12
+- Angular Material
+- ngx-mask
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Utilização
 
-## Running end-to-end tests
+A aplicação é bem simples. Ao acessar a página, você verá um formulário com um único campo para digitar um número de CPF. O ngx-mask é responsável por formatar automaticamente o CPF digitado no formato XXX.XXX.XXX-XX.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribuição
 
-## Further help
+Contribuições são bem-vindas. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
