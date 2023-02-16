@@ -1,0 +1,28 @@
+.menu-side {
+  background: #165c7d;
+  width: 100px;
+  height: 100vh;
+  .logo {
+    padding: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    margin: 80px auto;
+    gap: 30px;
+    .router-link-active {
+      color: white !important;
+    }
+    .item-menu {
+      font-size: 25px;
+      color: #739db1;
+      .icon {
+        font-size: 30px;
+      }
+    }
+  }
+}

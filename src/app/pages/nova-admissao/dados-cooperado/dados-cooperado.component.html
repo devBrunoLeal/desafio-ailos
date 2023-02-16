@@ -1,0 +1,64 @@
+<div class="items">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>Situação cadastral do CPF</mat-card-title>
+      <mat-card-subtitle>Consulta na receita Federal</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content class="card-content">
+      <div class="wrapper">
+        <mat-icon class="icon">person</mat-icon>
+      </div>
+      <div>
+        <p>Nome</p>
+        <span>{{dadosCooperado.nome}}</span>
+      </div>
+    </mat-card-content>
+    <mat-card-content class="card-content">
+      <div class="wrapper">
+        <mat-icon class="icon active">check</mat-icon>
+      </div>
+      <div>
+        <p>Situação do CPF</p>
+        <span>{{dadosCooperado.situacao}}</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>Conta aplicação</mat-card-title>
+      <mat-card-subtitle>Cooperativa Viacredi</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content class="card-content">
+      <div class="wrapper">
+        <mat-icon class="icon">credit_card</mat-icon>
+      </div>
+      <div>
+        <p>Número da conta</p>
+        <span>{{dadosCooperado.contaAplicacao}}</span>
+      </div>
+    </mat-card-content>
+    <mat-card-content class="card-content">
+      <a href="/">Duplicar conta</a>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>Conta corrente</mat-card-title>
+      <mat-card-subtitle>Cooperativa Viacredi</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content class="card-content">
+      <div class="wrapper">
+        <mat-icon class="icon">credit_card</mat-icon>
+      </div>
+      <div>
+        <p>Número da conta</p>
+        <span>{{dadosCooperado.contaCorrente}}</span>
+      </div>
+    </mat-card-content>
+    <mat-card-content class="card-content">
+      <a href="/">Duplicar conta</a>
+    </mat-card-content>
+  </mat-card>
+</div>

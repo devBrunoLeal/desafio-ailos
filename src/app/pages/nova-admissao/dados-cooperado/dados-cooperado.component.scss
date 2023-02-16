@@ -1,0 +1,32 @@
+.items {
+  display: flex;
+  gap: 15px;
+  .card {
+    width: 270px;
+    .card-content{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .icon{
+        color: #889499;
+      }
+      .active{
+        color: #00C246;
+      }
+      p{
+        font-size: 11px;
+        color: #787878;
+        margin-bottom: 0;
+      }
+      span{
+        color: black;
+        font-size: 14px;
+      }
+      a{
+        text-decoration: none;
+        color: #165C7D;
+        font-size: 14px;
+      }
+    }
+  }
+}

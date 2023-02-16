@@ -1,0 +1,36 @@
+<div class="container">
+  <app-timeline></app-timeline>
+
+  <div class="content">
+    <div class="info">
+      <p>Informe o CPF do futuro cooperado (a)</p>
+      <span
+        >Se necessário, você poderá duplicar uma conta existente ou pausar e
+        retomar este cadastro futuramente. <br />
+        Digite apenas os números (sem pontos ou traços).</span
+      >
+    </div>
+  </div>
+  <form class="form-cpf" [formGroup]="form" (ngSubmit)="submit()">
+    <div class="input-wrapper">
+      <label for="cpf">CPF</label>
+      <input
+        formControlName="cpf"
+        type="text"
+        mask="000.000.000-00"
+        name="cpf"
+        [ngClass]="{ error: error }"
+        placeholder="000.000.000-00"
+      />
+    </div>
+    <button type="submit">
+      <mat-spinner diameter="20" class="spinner" *ngIf="loading" ></mat-spinner>
+      <span *ngIf="!loading">Consultar por CPF</span>
+    </button>
+  </form>
+  <p *ngIf="error" class="error-text">Informe um CPF válido</p>
+  <div class="cooperado">
+    <app-dados-cooperado *ngIf="dadosCooperado" [dadosCooperado]="dadosCooperado">
+    </app-dados-cooperado>
+  </div>
+</div>
