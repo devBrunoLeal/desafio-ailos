@@ -1,4 +1,4 @@
-# Desadio Ailos
+# Desafio Ténico
 
 Este projeto foi desenvolvido em Angular 12, utilizando o Angular Material e o ngx-mask.
 
